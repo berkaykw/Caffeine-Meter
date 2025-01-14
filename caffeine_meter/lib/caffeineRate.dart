@@ -12,6 +12,7 @@ class _denemeState extends State<deneme> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Text("textdata"),
     );
   }
 }
