@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, file_names, camel_case_types
+
 import 'package:flutter/material.dart';
 
 class deneme extends StatefulWidget {
