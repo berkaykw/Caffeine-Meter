@@ -10,6 +10,8 @@ class deneme extends StatefulWidget {
 class _denemeState extends State<deneme> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
