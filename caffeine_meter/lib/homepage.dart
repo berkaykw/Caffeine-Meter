@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
               fontWeight: FontWeight.bold,
             ),
           ),
-          content: Text('Girilen Değer Geçersiz veya boş. Lütfen kontrol ediniz...'),
+          content: Text('Girilen Değer Geçersiz veya boş. Lütfen kontrol ediniz ve geçerli bir değer giriniz.'),
           actions: <Widget>[
             TextButton(
               child: Text(
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
     );
   } else {
     setState(() {
-      _displayText1 = "Ortalama Tüketilmesi Gereken Kafein Miktarı";
+      _displayText1 = "Ortalama Tüketilmesi Gereken Kafein Miktarı :";
     });
     setState(() {
       _displayText2 = "${_weight*4} mg";
